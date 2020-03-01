@@ -13,7 +13,7 @@ document.write("<br>");
 document.write("<br>");
 
 document.write("Loops");
-//looping constructs
+//looping constructs----------------------------------------------------------------------------------------
 for (i = 0; i < 10; i++) {
     for (j = 0; j < i; j++) {
 
@@ -33,7 +33,7 @@ while (a < 10) {
     document.write("<br>");
 }
 
-//conditional statements
+//conditional statements-0-----------------------------------------------------------------------
 document.write("<br>");
 document.write("Conditional Statements");
 document.write("<br>");
@@ -55,7 +55,7 @@ switch (ch) {
     case 2: document.write(10 - 2); break;
 }
 
-//functions
+//functions----------------------------------------------------------------------------------
 document.write("<br>");
 document.write("<br>");
 document.write("<br>");
@@ -69,7 +69,7 @@ document.write("<br>");
 var result = add(ch, num);
 document.write(result);
 
-// string functions : split and slice
+// string functions : split and slice---------------------------------------------------
 document.write("<br>");
 document.write("<br>");
 document.write("<br>");
@@ -118,3 +118,13 @@ function displayy() {
 
 
 displayy();
+
+//function to display only 5 elements----------------------------------------------
+document.write("<br><br><br><br> only 5 elements Displayed:<br>");
+function display5() {
+    for (i = 0; i < num.length - 6; i++)
+        document.write(num[i] + "<br>");
+
+}
+display5();
+
