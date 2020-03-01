@@ -94,3 +94,27 @@ document.write(str1.toUpperCase());
 
 document.write("<br>");
 document.write(str1.toLocaleLowerCase());
+
+
+
+// arrays-------------------------------------------------------------------------------------------
+var num = [];
+//function to push
+(function pushEle() {
+    for (i = 0; i <= 10; i++) {
+        num.push(i + 10);
+    }
+})();
+
+
+
+//function to delete element
+document.write("<br><br><br><br> Array elements Displayed:<br>");
+function displayy() {
+    for (i = 0; i <= 10; i++)
+        document.write(num[i] + "<br>");
+
+}
+
+
+displayy();
