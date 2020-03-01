@@ -108,7 +108,7 @@ var num = [];
 
 
 
-//function to delete element
+//function to display element
 document.write("<br><br><br><br> Array elements Displayed:<br>");
 function displayy() {
     for (i = 0; i <= 10; i++)
